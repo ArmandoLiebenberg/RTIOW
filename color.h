@@ -8,7 +8,7 @@
 void write_color(std::ostream &out, color pixelcolor) {
     out << static_cast<int>(255.999 * pixelcolor.x()) << ' '
         << static_cast<int>(255.999 * pixelcolor.y()) << ' '
-        << static_cast<int>(255.999 * pixelcolor.x()) << '\n';
+        << static_cast<int>(255.999 * pixelcolor.z()) << '\n';
 }
 
 #endif
